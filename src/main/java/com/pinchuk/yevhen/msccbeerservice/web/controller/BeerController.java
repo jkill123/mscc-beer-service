@@ -30,5 +30,4 @@ public class BeerController {
         return  new ResponseEntity(HttpStatus.NO_CONTENT);
     }
 
-    
 }
