@@ -18,9 +18,7 @@ import org.springframework.util.StringUtils;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-/**
- * Created by jt on 2019-06-06.
- */
+
 @RequiredArgsConstructor
 @Service
 public class BeerServiceImpl implements BeerService {
