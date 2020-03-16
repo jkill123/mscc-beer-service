@@ -18,9 +18,9 @@ import java.util.UUID;
  * @created 14/03/2020 - 19:00
  */
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class BeerDto {
 
     @Null
@@ -28,11 +28,12 @@ public class BeerDto {
 
     @Null
     private Integer version;
+
     @Null
     private OffsetDateTime createdDate;
 
     @Null
-    private OffsetDateTime lastModifyDate;
+    private OffsetDateTime lastModifiedDate;
 
     @NotBlank
     private String beerName;
@@ -40,6 +41,7 @@ public class BeerDto {
     @NotNull
     private BeerStyleEnum beerStyle;
 
+    @Positive
     @NotNull
     private Long upc;
 
@@ -47,7 +49,6 @@ public class BeerDto {
     @NotNull
     private BigDecimal price;
 
-    private Integer quantityOneHand;
+    private Integer quantityOnHand;
 
 }
-
