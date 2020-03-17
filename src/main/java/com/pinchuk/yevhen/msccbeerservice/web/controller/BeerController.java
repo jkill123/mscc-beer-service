@@ -1,7 +1,6 @@
 package com.pinchuk.yevhen.msccbeerservice.web.controller;
 
 import com.pinchuk.yevhen.msccbeerservice.services.BeerService;
-import com.pinchuk.yevhen.msccbeerservice.web.mappers.BeerMapper;
 import com.pinchuk.yevhen.msccbeerservice.web.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -20,7 +19,6 @@ import java.util.UUID;
 @RestController
 public class BeerController {
 
-    private final BeerMapper beerMapper;
     private final BeerService beerService;
 
     @GetMapping("/{beerId}")
