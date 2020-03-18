@@ -12,7 +12,7 @@ import java.util.UUID;
  * @created 17/03/2020 - 20:29
  */
 public interface BeerService {
-    BeerDto getById(UUID beerId);
+    BeerDto getById(UUID beerId, Boolean showInventoryOnHand);
 
     BeerDto saveNewBeer(BeerDto beerDto);
 
