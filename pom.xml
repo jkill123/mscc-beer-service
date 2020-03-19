@@ -8,10 +8,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mscc-beer-service</artifactId>
+    <artifactId>mssc-beer-service</artifactId>
+
     <version>0.0.1-SNAPSHOT</version>
-    <name>mscc-beer-service</name>
-    <description>mscc-beer-service</description>
+
+    <name>mssc-beer-service</name>
+
+    <description>MSSC Beer Service</description>
 
     <dependencies>
         <dependency>
@@ -27,5 +30,4 @@
             <artifactId>ehcache</artifactId>
         </dependency>
     </dependencies>
-
 </project>
