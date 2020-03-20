@@ -2,18 +2,20 @@ package pinchuk.msccbeerservice.bootstrap;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 import pinchuk.msccbeerservice.domain.Beer;
 import pinchuk.msccbeerservice.repositories.BeerRepository;
 import pinchuk.msccbeerservice.web.model.BeerStyleEnum;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 /**
  * @author Pinchuk Yevhen
  * @created 15/03/2020 - 19:00
  */
 @RequiredArgsConstructor
-//@Component
+@Component
 public class BeerLoader implements CommandLineRunner {
 
     public static final String BEER_1_UPC = "0631234200036";
