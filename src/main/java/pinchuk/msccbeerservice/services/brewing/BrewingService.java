@@ -1,4 +1,4 @@
-package pinchuk.msccbeerservice.services;
+package pinchuk.msccbeerservice.services.brewing;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
