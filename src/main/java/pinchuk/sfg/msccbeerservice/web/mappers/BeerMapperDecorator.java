@@ -3,7 +3,7 @@ package pinchuk.sfg.msccbeerservice.web.mappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import pinchuk.sfg.msccbeerservice.domain.Beer;
 import pinchuk.sfg.msccbeerservice.services.inventory.BeerInventoryService;
-import pinchuk.sfg.msccbeerservice.web.model.BeerDto;
+import pinchuk.sfg.brewery.model.BeerDto;
 
 /**
  * @author Pinchuk Yevhen

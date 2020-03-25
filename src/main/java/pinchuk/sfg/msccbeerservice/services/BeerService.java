@@ -1,9 +1,9 @@
 package pinchuk.sfg.msccbeerservice.services;
 
 import org.springframework.data.domain.PageRequest;
-import pinchuk.sfg.msccbeerservice.web.model.BeerDto;
-import pinchuk.sfg.msccbeerservice.web.model.BeerPagedList;
-import pinchuk.sfg.msccbeerservice.web.model.BeerStyleEnum;
+import pinchuk.sfg.brewery.model.BeerDto;
+import pinchuk.sfg.brewery.model.BeerPagedList;
+import pinchuk.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

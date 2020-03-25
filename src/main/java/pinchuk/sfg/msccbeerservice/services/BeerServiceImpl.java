@@ -10,9 +10,9 @@ import pinchuk.sfg.msccbeerservice.domain.Beer;
 import pinchuk.sfg.msccbeerservice.repositories.BeerRepository;
 import pinchuk.sfg.msccbeerservice.web.controller.NotFoundException;
 import pinchuk.sfg.msccbeerservice.web.mappers.BeerMapper;
-import pinchuk.sfg.msccbeerservice.web.model.BeerDto;
-import pinchuk.sfg.msccbeerservice.web.model.BeerPagedList;
-import pinchuk.sfg.msccbeerservice.web.model.BeerStyleEnum;
+import pinchuk.sfg.brewery.model.BeerDto;
+import pinchuk.sfg.brewery.model.BeerPagedList;
+import pinchuk.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 import java.util.stream.Collectors;

@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pinchuk.sfg.msccbeerservice.config.JmsConfig;
 import pinchuk.sfg.msccbeerservice.domain.Beer;
-import pinchuk.sfg.common.events.BrewBeerEvent;
-import pinchuk.sfg.common.events.NewInventoryEvent;
+import pinchuk.sfg.brewery.model.events.BrewBeerEvent;
+import pinchuk.sfg.brewery.model.events.NewInventoryEvent;
 import pinchuk.sfg.msccbeerservice.repositories.BeerRepository;
-import pinchuk.sfg.msccbeerservice.web.model.BeerDto;
+import pinchuk.sfg.brewery.model.BeerDto;
 
 /**
  * @author Pinchuk Yevhen

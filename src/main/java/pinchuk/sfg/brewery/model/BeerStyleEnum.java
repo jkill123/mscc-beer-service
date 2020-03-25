@@ -1,4 +1,4 @@
-package pinchuk.sfg.msccbeerservice.web.model;
+package pinchuk.sfg.brewery.model;
 
 /**
  * @author Pinchuk Yevhen

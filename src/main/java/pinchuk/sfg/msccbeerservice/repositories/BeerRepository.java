@@ -4,7 +4,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import pinchuk.sfg.msccbeerservice.domain.Beer;
-import pinchuk.sfg.msccbeerservice.web.model.BeerStyleEnum;
+import pinchuk.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

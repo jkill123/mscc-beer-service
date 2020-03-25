@@ -5,7 +5,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import pinchuk.sfg.msccbeerservice.domain.Beer;
 import pinchuk.sfg.msccbeerservice.repositories.BeerRepository;
-import pinchuk.sfg.msccbeerservice.web.model.BeerStyleEnum;
+import pinchuk.sfg.brewery.model.BeerStyleEnum;
 
 import java.math.BigDecimal;
 

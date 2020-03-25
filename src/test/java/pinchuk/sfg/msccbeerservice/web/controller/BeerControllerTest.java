@@ -10,8 +10,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import pinchuk.sfg.msccbeerservice.bootstrap.BeerLoader;
 import pinchuk.sfg.msccbeerservice.services.BeerService;
-import pinchuk.sfg.msccbeerservice.web.model.BeerDto;
-import pinchuk.sfg.msccbeerservice.web.model.BeerStyleEnum;
+import pinchuk.sfg.brewery.model.BeerDto;
+import pinchuk.sfg.brewery.model.BeerStyleEnum;
 
 import java.math.BigDecimal;
 import java.util.UUID;

@@ -1,7 +1,7 @@
-package pinchuk.sfg.common.events;
+package pinchuk.sfg.brewery.model.events;
 
 import lombok.*;
-import pinchuk.sfg.msccbeerservice.web.model.BeerDto;
+import pinchuk.sfg.brewery.model.BeerDto;
 
 import java.io.Serializable;
 

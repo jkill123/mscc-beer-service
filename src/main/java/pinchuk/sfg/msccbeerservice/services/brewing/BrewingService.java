@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import pinchuk.sfg.msccbeerservice.config.JmsConfig;
 import pinchuk.sfg.msccbeerservice.domain.Beer;
-import pinchuk.sfg.common.events.BrewBeerEvent;
+import pinchuk.sfg.brewery.model.events.BrewBeerEvent;
 import pinchuk.sfg.msccbeerservice.repositories.BeerRepository;
 import pinchuk.sfg.msccbeerservice.services.inventory.BeerInventoryService;
 import pinchuk.sfg.msccbeerservice.web.mappers.BeerMapper;
