@@ -9,15 +9,13 @@ import pinchuk.sfg.msccbeerservice.services.inventory.model.BeerInventoryDto;
 import java.util.List;
 import java.util.UUID;
 
-import static pinchuk.sfg.msccbeerservice.services.inventory.BeerInventoryServiceRestTemplateImpl.INVENTORY_PATH;
-
 /**
  * @author Pinchuk Yevhen
- * @created 28/03/2020 - 15:27
+ * @created 28/03/2020 - 16:15
  */
-@FeignClient(value = "inventory-service", fallback = InventoryServiceFeignClientFailover.class)
-public interface InventoryServiceFeignClient {
+@FeignClient("inventory-failover")
+public interface InventoryFailoverFeignClient {
 
-    @RequestMapping(method = RequestMethod.GET, value = INVENTORY_PATH)
+    @RequestMapping(method = RequestMethod.GET, value = "/inventory-failover")
     ResponseEntity<List<BeerInventoryDto>> getOnhandInventory(UUID beerId);
 }
